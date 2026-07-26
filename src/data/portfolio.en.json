@@ -1,0 +1,131 @@
+{
+  "hero": {
+    "greeting": "Hi, I'm a full-stack developer, Zhou Shuo.",
+    "subline": "I focus on building clean, usable, and interesting digital products. Here is my portfolio and open source work.",
+    "tip": "Experienced in AI development, App, Web, and server-side development. Capable of handling the full workflow from product design, marketing, and software development to app store publishing. Have independently led multiple projects."
+  },
+  "about": {
+    "avatar": "/uploads/1784616677944-ltl8ww.png",
+    "contact": {
+      "email": "yuanzhou_cn@qq.com",
+      "phone": "15256142177",
+      "wechat": "15256142177",
+      "github": "https://github.com/bfzg"
+    },
+    "skills": [
+      {
+        "title": "Marketing",
+        "body": "I believe marketing is the most important part of any work. Being familiar with mainstream domestic and international marketing methods is one of my strengths."
+      },
+      {
+        "title": "Communication",
+        "body": "I firmly believe in the importance of communication in collaboration, and strive to be a developer who guides teamwork in a transparent and flexible way. I often serve as a bridge between designers and developers, clearly expressing both sides' ideas and proposing compromises."
+      },
+      {
+        "title": "Code",
+        "body": "I focus on writing clear, intuitive code so that other developers can easily read and maintain it. I value naming conventions, responsibility-based structural design, and excel at building scalable component systems to effectively improve the team's overall code quality."
+      },
+      {
+        "title": "Documentation",
+        "body": "I enjoy organizing key decisions, interface agreements, and usage methods into documentation to help teams reduce repetitive communication. I believe good documentation is as important as the product itself, enabling knowledge and experience to flow continuously."
+      }
+    ],
+    "techStack": [
+      { "name": "Node.js", "image": "/uploads/node.png" },
+      { "name": "React", "image": "/uploads/react.png" },
+      { "name": "Flutter", "image": "/uploads/flutter.png" },
+      { "name": "Go", "image": "/uploads/golang.png" },
+      { "name": "UniApp", "image": "/uploads/uniapp.jpeg" },
+      { "name": "WeChat Mini Program", "image": "/uploads/we-mini.png" },
+      { "name": "Google Play", "image": "/uploads/google-play.png" },
+      { "name": "App Store", "image": "/uploads/app-store.png" }
+    ]
+  },
+  "projects": [
+    {
+      "id": "p1",
+      "title": "EteDrop: P2P File Transfer & Sharing System",
+      "tags": ["Flutter", "Nest.js", "SQLite", "Next.js", "WebRTC"],
+      "description": "A P2P file transfer app built with Flutter and NestJS. Supports direct device-to-device transfer via WebRTC with no cloud storage, available on Windows, macOS, Android, iOS, and web.",
+      "link": "https://etedrop.com",
+      "linkText": "View Project →",
+      "appStore": "#",
+      "googlePlay": "#",
+      "images": [
+        "/uploads/1784617006520-b068iw.png",
+        "/uploads/1784617006531-ryeqb4.png",
+        "/uploads/1784617006544-s72u0p.png",
+        "/uploads/1784617006559-za1w9h.png"
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "EasyNVR: Enterprise Video Edge Computing & Management Platform",
+      "tags": ["React", "WASM", "Uniapp", "Flutter"],
+      "description": "An enterprise video platform connecting IP cameras to web/mobile. Features browser-side H.265 decoding via WASM, 100+ concurrent live feeds, and protocol conversion (RTSP/ONVIF to WebRTC/HLS). Supports 2000+ channels.",
+      "link": "https://easynvr.com",
+      "linkText": "View Project →",
+      "images": [
+        "/uploads/1784617917735-48bbh6.png",
+        "/uploads/1784617917743-ykaomx.png",
+        "/uploads/1784617917749-h98slq.png",
+        "/uploads/1784618652539-41snfg.png",
+        "/uploads/1784618652547-wi544p.png"
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "Yeezy: Online Store",
+      "tags": ["Next.js", "Design"],
+      "description": "A Yeezy-style website featuring a fully functional shopping cart, PayPal and Apple Pay integration, an admin backend, and order fulfillment capabilities. The UI is clean and sophisticated.",
+      "link": "https://dropmini.com",
+      "linkText": "View Project →",
+      "images": [
+        "/uploads/1784627250901-sn5jp9.png",
+        "/uploads/1784627250916-tjgqfs.png",
+        "/uploads/1784627250928-9b711a.png"
+      ]
+    }
+  ],
+  "repos": [
+    {
+      "id": "r1",
+      "name": "taobao-1688-image-scraper",
+      "description": "Bulk download product images from Taobao & 1688 with automatic background removal. Ideal for cross-border e-commerce migration.",
+      "stars": "—",
+      "language": "Python",
+      "link": "https://github.com/bfzg/taobao-1688-image-scraper"
+    },
+    {
+      "id": "r2",
+      "name": "yeezy",
+      "description": "A minimalist e-commerce demo with Next.js, React 19, and SQLite. Includes storefront, admin panel, cart/checkout, and PayPal integration.",
+      "stars": "—",
+      "language": "TypeScript",
+      "link": "https://github.com/bfzg/yeezy"
+    },
+    {
+      "id": "r3",
+      "name": "SignUp_WeChat",
+      "description": "A WeChat mini-program for sports event registration. Supports sign-up, payment, ticket generation, results query, and admin management.",
+      "stars": "—",
+      "language": "Vue",
+      "link": "https://github.com/bfzg/SignUp_WeChat"
+    }
+  ],
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Transparent hourly rate.",
+    "rate": "5.50",
+    "currency": "$",
+    "unit": "hour",
+    "note": "Long-term collaboration rates available based on project complexity."
+  },
+  "footer": {
+    "title": "Stay in Touch",
+    "email": "yuanzhou_cn@qq.com",
+    "github": "GitHub",
+    "wechat": "WeChat",
+    "copyright": "Copyright 2026 Zhou Shuo. All rights reserved."
+  }
+}

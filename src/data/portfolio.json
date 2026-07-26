@@ -1,0 +1,95 @@
+{
+  "hero": {
+    "greeting": "你好，我是[全栈开发者 / 设计师]，[你的名字]。",
+    "subline": "我专注于构建简洁、可用且有趣的数字产品。这里是我的作品集与开源记录。",
+    "tip": "提示：你可以根据自己的优势替换这里的文字内容，调整项目顺序，把最亮眼的经历放在最前面。"
+  },
+  "about": {
+    "avatar": "",
+    "contact": {
+      "email": "youremail@domain.com",
+      "blog": "your blog link here",
+      "github": "your github link here"
+    },
+    "skills": [
+      {
+        "title": "[关键词]",
+        "body": "我非常重视这类工作，并以这样的态度来对待。特别是我认为[具体价值]这一点尤为重要，因此我主导或参与了相关项目。"
+      },
+      {
+        "title": "沟通",
+        "body": "我深信沟通在协作中的重要性，致力于成为一位以透明且灵活的方式引导合作的开发者。我经常担任设计师与开发者之间的桥梁，明确表达双方的思路，并提出折衷方案。"
+      },
+      {
+        "title": "代码",
+        "body": "我注重撰写清晰、直观的代码，以便其他开发者能够轻松阅读与维护。我重视命名规范、按职责划分的结构设计，并擅长构建可拓展的组件体系，从而有效提升团队整体代码质量。"
+      },
+      {
+        "title": "文档",
+        "body": "我乐于将项目中的关键决策、接口约定和使用方法整理成文档，帮助团队减少重复沟通。我相信好的文档和产品本身一样重要，能让知识和经验持续流动。"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "p1",
+      "title": "项目 A",
+      "tags": ["UI 设计", "React"],
+      "description": "负责从 0 到 1 的产品设计，包括用户研究、信息架构和界面视觉，最终推动核心转化率提升 30%。项目支持多端适配，覆盖 Web 和移动端。",
+      "link": "https://example.com/project-a",
+      "linkText": "查看项目 →",
+      "images": []
+    },
+    {
+      "id": "p2",
+      "title": "项目 B",
+      "tags": ["前端架构", "Vue"],
+      "description": "主导前端架构升级，将旧系统迁移至现代组件化方案，提升首屏加载速度 60% 和可维护性。引入自动化测试流程，覆盖核心业务逻辑。",
+      "link": "https://example.com/project-b",
+      "linkText": "查看项目 →",
+      "images": []
+    },
+    {
+      "id": "p3",
+      "title": "项目 C",
+      "tags": ["全栈", "Node.js"],
+      "description": "独立完成一款工具型产品的设计、开发与上线，覆盖从需求分析到部署运维的完整流程。上线 3 个月用户突破 1 万，获得开源社区好评。",
+      "link": "https://example.com/project-c",
+      "linkText": "查看项目 →",
+      "images": []
+    }
+  ],
+  "repos": [
+    {
+      "id": "r1",
+      "name": "awesome-tool",
+      "description": "一个轻量级的开发工具，帮助快速生成项目模板与脚手架代码。",
+      "stars": "1.2k",
+      "language": "TypeScript",
+      "link": "https://github.com/example/awesome-tool"
+    },
+    {
+      "id": "r2",
+      "name": "react-hooks-kit",
+      "description": "一组常用的 React Hooks，封装了请求、状态同步和表单处理等高频逻辑。",
+      "stars": "856",
+      "language": "JavaScript",
+      "link": "https://github.com/example/react-hooks-kit"
+    },
+    {
+      "id": "r3",
+      "name": "cli-painter",
+      "description": "为命令行工具提供美观输出样式的 Node.js 库，支持主题、表格和进度条。",
+      "stars": "342",
+      "language": "Go",
+      "link": "https://github.com/example/cli-painter"
+    }
+  ],
+  "footer": {
+    "title": "保持联系",
+    "email": "youremail@domain.com",
+    "github": "GitHub",
+    "blog": "Blog",
+    "copyright": "Copyright 2026 [你的名字]. All rights reserved."
+  }
+}

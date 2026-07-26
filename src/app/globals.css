@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-ink: #0A0A0A;
+  --color-accent: #D97706;
+  --color-accent-light: #FEF3C7;
+  --color-accent-dark: #92400E;
+  --color-muted: #737373;
+  --color-border: #E5E5E5;
+  --color-surface: #F5F5F5;
+}
+
+@layer base {
+  html, body {
+    height: 100%;
+  }
+  body {
+    font-family: "Noto Sans SC", sans-serif;
+    color: var(--color-ink);
+    background: #FFFFFF;
+  }
+}
+
+@layer utilities {
+  .font-mono {
+    font-family: "Outfit", sans-serif;
+  }
+  .font-sans {
+    font-family: "Noto Sans SC", sans-serif;
+  }
+}
+
+/* Carousel transition */
+.carousel-track {
+  transition: transform 0.4s ease;
+}

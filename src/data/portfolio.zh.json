@@ -1,0 +1,131 @@
+{
+  "hero": {
+    "greeting": "你好，我是全栈开发者，周硕。",
+    "subline": "我专注于构建简洁、可用且有趣的数字产品。这里是我的作品集与开源记录。",
+    "tip": "熟悉 Ai 开发，App，Web，服务端开发，能提供从产品设计，宣传营销，软件开发，应用上架全流程，独立负责过多个项目。"
+  },
+  "about": {
+    "avatar": "/uploads/1784616677944-ltl8ww.png",
+    "contact": {
+      "email": "yuanzhou_cn@qq.com",
+      "phone": "15256142177",
+      "wechat": "15256142177",
+      "github": "https://github.com/bfzg"
+    },
+    "skills": [
+      {
+        "title": "营销",
+        "body": "我认为营销是所有工作中最重要的，熟悉国内外主流的营销方式是我的优点之一。"
+      },
+      {
+        "title": "沟通",
+        "body": "我深信沟通在协作中的重要性，致力于成为一位以透明且灵活的方式引导合作的开发者。我经常担任设计师与开发者之间的桥梁，明确表达双方的思路，并提出折衷方案。"
+      },
+      {
+        "title": "代码",
+        "body": "我注重撰写清晰、直观的代码，以便其他开发者能够轻松阅读与维护。我重视命名规范、按职责划分的结构设计，并擅长构建可拓展的组件体系，从而有效提升团队整体代码质量。"
+      },
+      {
+        "title": "文档",
+        "body": "我乐于将项目中的关键决策、接口约定和使用方法整理成文档，帮助团队减少重复沟通。我相信好的文档和产品本身一样重要，能让知识和经验持续流动。"
+      }
+    ],
+    "techStack": [
+      { "name": "Node.js", "image": "/uploads/node.png" },
+      { "name": "React", "image": "/uploads/react.png" },
+      { "name": "Flutter", "image": "/uploads/flutter.png" },
+      { "name": "Go", "image": "/uploads/golang.png" },
+      { "name": "UniApp", "image": "/uploads/uniapp.jpeg" },
+      { "name": "微信小程序", "image": "/uploads/we-mini.png" },
+      { "name": "Google Play", "image": "/uploads/google-play.png" },
+      { "name": "App Store", "image": "/uploads/app-store.png" }
+    ]
+  },
+  "projects": [
+    {
+      "id": "p1",
+      "title": "EteDrop：P2P 文件传输与分享系统",
+      "tags": ["Flutter", "Nest.js", "SQLite", "Next.js", "WebRTC"],
+      "description": "基于 WebRTC 的 P2P 文件传输应用，使用 Flutter 和 NestJS 开发。支持设备间直连传输，无需云端存储，已上线 Windows、macOS、Android、iOS 及 Web 端。",
+      "link": "https://etedrop.com",
+      "linkText": "查看项目 →",
+      "appStore": "#",
+      "googlePlay": "#",
+      "images": [
+        "/uploads/1784617006520-b068iw.png",
+        "/uploads/1784617006531-ryeqb4.png",
+        "/uploads/1784617006544-s72u0p.png",
+        "/uploads/1784617006559-za1w9h.png"
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "EasyNVR：企业视频边缘计算与管理平台",
+      "tags": ["React", "WASM", "Uniapp", "Flutter"],
+      "description": "企业级视频平台，将 IP 摄像头接入 Web 和移动端。通过 WASM 实现浏览器端 H.265 解码，支持 100+ 路并发直播和协议转换（RTSP/ONVIF 转 WebRTC/HLS），可扩展至 2000+ 通道。",
+      "link": "https://easynvr.com",
+      "linkText": "查看项目 →",
+      "images": [
+        "/uploads/1784617917735-48bbh6.png",
+        "/uploads/1784617917743-ykaomx.png",
+        "/uploads/1784617917749-h98slq.png",
+        "/uploads/1784618652539-41snfg.png",
+        "/uploads/1784618652547-wi544p.png"
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "Yeezy：在线商店",
+      "tags": ["Next.js", "Design"],
+      "description": "仿 Yeezy 官网的电商网站，具备完整的购物车、PayPal 和 Apple Pay 支付、后台管理及订单发货功能。界面简洁精致。",
+      "link": "https://dropmini.com",
+      "linkText": "查看项目 →",
+      "images": [
+        "/uploads/1784627250901-sn5jp9.png",
+        "/uploads/1784627250916-tjgqfs.png",
+        "/uploads/1784627250928-9b711a.png"
+      ]
+    }
+  ],
+  "repos": [
+    {
+      "id": "r1",
+      "name": "taobao-1688-image-scraper",
+      "description": "批量下载淘宝/1688 商品图片，自动去除背景，适合跨境电商独立站素材迁移。",
+      "stars": "—",
+      "language": "Python",
+      "link": "https://github.com/bfzg/taobao-1688-image-scraper"
+    },
+    {
+      "id": "r2",
+      "name": "yeezy",
+      "description": "基于 Next.js、React 19 和 SQLite 的极简电商演示项目，包含前台商城、后台管理、购物车结账及 PayPal 支付。",
+      "stars": "—",
+      "language": "TypeScript",
+      "link": "https://github.com/bfzg/yeezy"
+    },
+    {
+      "id": "r3",
+      "name": "SignUp_WeChat",
+      "description": "体育赛事报名微信小程序，支持报名、缴费、准考证生成、成绩查询与后台管理。",
+      "stars": "—",
+      "language": "Vue",
+      "link": "https://github.com/bfzg/SignUp_WeChat"
+    }
+  ],
+  "pricing": {
+    "title": "服务定价",
+    "subtitle": "按小时计费，透明公开。",
+    "rate": "40",
+    "currency": "¥",
+    "unit": "小时",
+    "note": "根据项目复杂度可协商长期合作价格。"
+  },
+  "footer": {
+    "title": "保持联系",
+    "email": "yuanzhou_cn@qq.com",
+    "github": "GitHub",
+    "wechat": "WeChat",
+    "copyright": "Copyright 2026 周硕. All rights reserved."
+  }
+}
