@@ -31,21 +31,51 @@
       }
     ],
     "techStack": [
-      { "name": "Node.js", "image": "/uploads/node.png" },
-      { "name": "React", "image": "/uploads/react.png" },
-      { "name": "Flutter", "image": "/uploads/flutter.png" },
-      { "name": "Go", "image": "/uploads/golang.png" },
-      { "name": "UniApp", "image": "/uploads/uniapp.jpeg" },
-      { "name": "微信小程序", "image": "/uploads/we-mini.png" },
-      { "name": "Google Play", "image": "/uploads/google-play.png" },
-      { "name": "App Store", "image": "/uploads/app-store.png" }
+      {
+        "name": "Node.js",
+        "image": "/uploads/node.png"
+      },
+      {
+        "name": "React",
+        "image": "/uploads/react.png"
+      },
+      {
+        "name": "Flutter",
+        "image": "/uploads/flutter.png"
+      },
+      {
+        "name": "Go",
+        "image": "/uploads/golang.png"
+      },
+      {
+        "name": "UniApp",
+        "image": "/uploads/uniapp.jpeg"
+      },
+      {
+        "name": "微信小程序",
+        "image": "/uploads/we-mini.png"
+      },
+      {
+        "name": "Google Play",
+        "image": "/uploads/google-play.png"
+      },
+      {
+        "name": "App Store",
+        "image": "/uploads/app-store.png"
+      }
     ]
   },
   "projects": [
     {
       "id": "p1",
       "title": "EteDrop：P2P 文件传输与分享系统",
-      "tags": ["Flutter", "Nest.js", "SQLite", "Next.js", "WebRTC"],
+      "tags": [
+        "Flutter",
+        "Nest.js",
+        "SQLite",
+        "Next.js",
+        "WebRTC"
+      ],
       "description": "基于 WebRTC 的 P2P 文件传输应用，使用 Flutter 和 NestJS 开发。支持设备间直连传输，无需云端存储，已上线 Windows、macOS、Android、iOS 及 Web 端。",
       "link": "https://etedrop.com",
       "linkText": "查看项目 →",
@@ -61,7 +91,12 @@
     {
       "id": "p2",
       "title": "EasyNVR：企业视频边缘计算与管理平台",
-      "tags": ["React", "WASM", "Uniapp", "Flutter"],
+      "tags": [
+        "React",
+        "WASM",
+        "Uniapp",
+        "Flutter"
+      ],
       "description": "企业级视频平台，将 IP 摄像头接入 Web 和移动端。通过 WASM 实现浏览器端 H.265 解码，支持 100+ 路并发直播和协议转换（RTSP/ONVIF 转 WebRTC/HLS），可扩展至 2000+ 通道。",
       "link": "https://easynvr.com",
       "linkText": "查看项目 →",
@@ -76,7 +111,10 @@
     {
       "id": "p3",
       "title": "Yeezy：在线商店",
-      "tags": ["Next.js", "Design"],
+      "tags": [
+        "Next.js",
+        "Design"
+      ],
       "description": "仿 Yeezy 官网的电商网站，具备完整的购物车、PayPal 和 Apple Pay 支付、后台管理及订单发货功能。界面简洁精致。",
       "link": "https://dropmini.com",
       "linkText": "查看项目 →",

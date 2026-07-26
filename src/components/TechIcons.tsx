@@ -4,19 +4,19 @@ interface TechIconsProps {
 
 export default function TechIcons({ items }: TechIconsProps) {
   return (
-    <div className="flex flex-wrap gap-10 justify-center">
+    <div className="flex flex-wrap gap-8 justify-center items-center">
       {items.map((item) => (
         <div
           key={item.name}
-          className="flex flex-col items-center gap-2 w-20"
+          className="flex flex-col items-center gap-2 "
           title={item.name}
         >
             <img
               src={item.image}
               alt={item.name}
-              className="w-full h-full object-contain"
+              className="object-contain w-20 h-20"
             />
-          <span className="text-xs text-[#737373] text-center">{item.name}</span>
+          <span className="text-[#737373] text-center">{item.name}</span>
         </div>
       ))}
     </div>

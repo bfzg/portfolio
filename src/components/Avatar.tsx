@@ -5,7 +5,7 @@ interface AvatarProps {
 export default function Avatar({ src }: AvatarProps) {
   if (src) {
     return (
-      <div className="w-[280px] h-[280px] rounded-lg overflow-hidden">
+      <div className="w-full max-w-[280px] aspect-square rounded-lg overflow-hidden mx-auto lg:mx-0">
         <img src={src} alt="Avatar" className="w-full h-full object-cover" />
       </div>
     );
@@ -13,7 +13,7 @@ export default function Avatar({ src }: AvatarProps) {
 
   // Default avatar illustration matching the design
   return (
-    <svg width="280" height="280" viewBox="0 0 280 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="w-full max-w-[280px] h-auto aspect-square" viewBox="0 0 280 280" fill="none" xmlns="http://www.w3.org/2000/svg">
       {/* Head */}
       <circle cx="140" cy="80" r="40" fill="#0A0A0A" />
       {/* Hair */}

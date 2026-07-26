@@ -25,7 +25,7 @@ export default function Carousel({ images, placeholderColor = "#F5F5F5" }: Carou
   if (total === 0) {
     return (
       <div
-        className="relative w-[560px] h-[360px] rounded-lg overflow-hidden flex items-center justify-center"
+        className="relative w-full aspect-[14/9] rounded-lg overflow-hidden flex items-center justify-center"
         style={{ backgroundColor: placeholderColor }}
       >
         <div className="flex flex-col items-center gap-3 text-gray-400">
@@ -43,7 +43,7 @@ export default function Carousel({ images, placeholderColor = "#F5F5F5" }: Carou
   // Single image - no navigation needed
   if (total === 1) {
     return (
-      <div className="relative w-[560px] h-[360px] rounded-lg overflow-hidden bg-[#F5F5F5]">
+      <div className="relative w-full aspect-[14/9] rounded-lg overflow-hidden bg-[#F5F5F5]">
         <img src={images[0]} alt="" className="w-full h-full object-cover" />
       </div>
     );
@@ -51,14 +51,14 @@ export default function Carousel({ images, placeholderColor = "#F5F5F5" }: Carou
 
   // Multiple images - full carousel
   return (
-    <div className="relative w-[560px] h-[360px] rounded-lg overflow-hidden">
+    <div className="relative w-full aspect-[14/9] rounded-lg overflow-hidden">
       {/* Image track */}
       <div
-        className="flex h-full carousel-track"
-        style={{ transform: `translateX(-${current * 560}px)` }}
+        className="flex h-full w-full carousel-track"
+        style={{ transform: `translateX(-${current * 100}%)` }}
       >
         {images.map((img, i) => (
-          <div key={i} className="w-[560px] flex-shrink-0 bg-gray-100">
+          <div key={i} className="w-full h-full flex-shrink-0 bg-gray-100">
             <img src={img} alt="" className="w-full h-full object-contain" />
           </div>
         ))}
