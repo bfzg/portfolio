@@ -111,13 +111,6 @@ export default async function HomePage() {
                   {data.about.contact.github}
                 </a>
               </p>
-              <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-lg overflow-hidden border border-[#E5E5E5]">
-                <img
-                  src="/uploads/wechat-qr-1784616677945.png"
-                  alt="WeChat QR code"
-                  className="w-full h-full object-cover"
-                />
-              </div>
             </div>
           </div>
           {/* Right: Skills */}
