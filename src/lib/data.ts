@@ -3,9 +3,9 @@ import path from "path";
 import type { PortfolioData, ProjectData, RepoData } from "./types";
 import type { Locale } from "@/i18n/locales";
 import { defaultLocale, isValidLocale } from "@/i18n/locales";
+import { getUploadDir } from "./uploads";
 
 const DATA_DIR = path.join(process.cwd(), "src", "data");
-const UPLOAD_DIR = path.join(process.cwd(), "public", "uploads");
 
 function getDataFile(locale: Locale): string {
   return path.join(DATA_DIR, `portfolio.${locale}.json`);
@@ -108,6 +108,7 @@ export async function deleteRepo(id: string, locale: Locale = defaultLocale): Pr
 }
 
 export async function saveUploadedImage(file: File): Promise<string> {
+  const UPLOAD_DIR = getUploadDir();
   await fs.mkdir(UPLOAD_DIR, { recursive: true });
   const ext = path.extname(file.name) || ".png";
   const filename = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}${ext}`;
