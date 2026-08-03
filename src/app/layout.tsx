@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import "./globals.css";
 import { I18nProvider } from "@/i18n/context";
 import { getLocale } from "@/i18n/server";
+// TypeScript may complain about missing type declarations for CSS imports in some setups.
+// @ts-ignore
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Portfolio",
