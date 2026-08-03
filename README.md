@@ -83,6 +83,12 @@ npm run build
 npm start
 ```
 
+可选：如需启用百度统计，在 `.env.local` 中配置站点 ID：
+
+```env
+NEXT_PUBLIC_BAIDU_ANALYTICS_ID=your-baidu-analytics-id
+```
+
 支持任何支持 Node.js 的静态托管或 Serverless 平台，如 Vercel、Netlify、Cloudflare Pages 等。
 
 ### 许可证
@@ -172,6 +178,12 @@ From the admin panel, you can:
 ```bash
 npm run build
 npm start
+```
+
+Optional: enable Baidu Analytics by setting the site ID in `.env.local`:
+
+```env
+NEXT_PUBLIC_BAIDU_ANALYTICS_ID=your-baidu-analytics-id
 ```
 
 Works with any Node.js-compatible static or serverless hosting platform, such as Vercel, Netlify, or Cloudflare Pages.
